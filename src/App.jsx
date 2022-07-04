@@ -5,6 +5,11 @@ function App() {
 
   return (
       <div className='App'>
+        <div className={`flex-col  absolute justify-center`} style={{alignItems:"center"}}>
+        <img src="src\assets\logo.png" alt="logo" style={{height:'100px',width:'100px'}} /> 
+        {/* <p className={` px-5 py-2`}>Nftea</p> */}
+        </div>
+        
         <SectionWrapper 
         desc='Nftea is a Cross chain NFT platform that allows free minting, selling, buying and reselling NFTs.
          The ultimate Nft market platform for buying and selling top nfts'
